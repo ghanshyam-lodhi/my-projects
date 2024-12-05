@@ -19,14 +19,14 @@ header nav a img {
 header nav ul {
   display: flex;
   gap: 30px;
-  color: #414141;
+  color: #fff;
   list-style: none;
 }
 header nav ul li {
   font-size: 20px;
 }
 header nav ul li:hover {
-  color: #9b2424;
+  color: #fff;
   cursor: pointer;
 }
 
