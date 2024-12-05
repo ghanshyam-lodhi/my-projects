@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #10ac84;
+  padding: 20px 0px;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header nav a img {
+  width: 200px;
+}
+header nav ul {
+  display: flex;
+  gap: 30px;
+  color: #414141;
+  list-style: none;
+}
+header nav ul li {
+  font-size: 20px;
+}
+header nav ul li:hover {
+  color: #9b2424;
+  cursor: pointer;
+}
+
+.hadding {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hadding h1 {
+  color: #10ac84;
+  font-size: 4rem;
+}
+.hadding h1:hover {
+  color: #414141;
+  transition: 0.7s ease-in-out;
+}
+.hadding h1:hover:after {
+  content: "add new";
+}
+.hadding h1:hover:after:hover {
+  color: red;
+  cursor: pointer;
+}
+.hadding p {
+  color: #9b2424;
+  font-size: 3rem;
+}
+.hadding p:hover {
+  color: #ff84dd;
+}/*# sourceMappingURL=main.css.map */
