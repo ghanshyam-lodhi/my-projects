@@ -37,13 +37,16 @@ header nav ul li:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-image: url(../scss/img/banner-bg-1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .hadding h1 {
   color: #10ac84;
   font-size: 4rem;
 }
 .hadding h1:hover {
-  color: #414141;
+  color: #fff;
   transition: 0.7s ease-in-out;
 }
 .hadding h1:hover:after {
@@ -58,5 +61,5 @@ header nav ul li:hover {
   font-size: 3rem;
 }
 .hadding p:hover {
-  color: #ff84dd;
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */

@@ -45,11 +45,14 @@ header {
     height: 100vh;
     width: 100vw;
     @include flex-pro;
+    background-image: url(../scss/img/banner-bg-1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
     h1{
         color: #10ac84;
         font-size: 2 + 2rem;
         &:hover{
-            color: #414141;
+            color: #fff; 
             transition: 0.7s ease-in-out;
             &:after{
                 content: "add new";
@@ -65,7 +68,7 @@ header {
         color: #9b2424;
         font-size: 2 + 1rem;
         &:hover{
-            color: #ff84dd;
+            color: #fff;
         }
     }
    
