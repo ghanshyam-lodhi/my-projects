@@ -19,7 +19,7 @@ header nav a img {
 header nav ul {
   display: flex;
   gap: 30px;
-  color: #fff;
+  color: #124163;
   list-style: none;
 }
 header nav ul li {
